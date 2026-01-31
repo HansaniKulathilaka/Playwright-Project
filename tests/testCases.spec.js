@@ -47,7 +47,7 @@ for (const tc of testCases) {
     await page.goto('https://www.swifttranslator.com/', { waitUntil: 'networkidle' });
 
     const inputBox = page.getByPlaceholder('Input Your Singlish Text Here.').or(page.locator('textarea#fromText'));
-    // Output: div.output-text or the element containing the expected translation
+    
     const outputBox = page.locator('div.output-text').or(page.getByText(tc.expected, { exact: true }));
 
     await inputBox.first().waitFor({ state: 'visible', timeout: 15000 });
