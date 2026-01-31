@@ -118,30 +118,27 @@
                 - img [ref=e126]
               - button "Redo" [ref=e128] [cursor=pointer]:
                 - img [ref=e129]
-          - generic [ref=e131]:
-            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: mama ATM eka langa inne, oyaa enne nadhdha ?
-            - list [ref=e134]:
-              - listitem [ref=e135] [cursor=pointer]: "?"
-          - generic [ref=e136]:
-            - button "Open File" [ref=e137] [cursor=pointer]:
+          - textbox "Input Your Singlish Text Here." [active] [ref=e132]: mama ATM eka langa inne, oyaa enne nadhdha ?
+          - generic [ref=e133]:
+            - button "Open File" [ref=e134] [cursor=pointer]:
+              - img [ref=e135]
+            - button "Copy" [ref=e137] [cursor=pointer]:
               - img [ref=e138]
-            - button "Copy" [ref=e140] [cursor=pointer]:
+            - button "Cut" [ref=e140] [cursor=pointer]:
               - img [ref=e141]
-            - button "Cut" [ref=e143] [cursor=pointer]:
+            - button "Paste" [ref=e143] [cursor=pointer]:
               - img [ref=e144]
-            - button "Paste" [ref=e146] [cursor=pointer]:
+            - button "Clear" [ref=e146] [cursor=pointer]:
               - img [ref=e147]
-            - button "Clear" [ref=e149] [cursor=pointer]:
-              - img [ref=e150]
-        - button "Swap Languages" [ref=e153] [cursor=pointer]:
-          - img [ref=e154]
-        - generic [ref=e156]:
-          - generic [ref=e157]: Sinhala
-          - generic [ref=e158]: මම ATM එක ලන්ග ඉන්නේ, ඔයා එන්නෙ නද්ද ?
-          - generic [ref=e159]:
-            - button "Copy" [ref=e160] [cursor=pointer]:
+        - button "Swap Languages" [ref=e150] [cursor=pointer]:
+          - img [ref=e151]
+        - generic [ref=e153]:
+          - generic [ref=e154]: Sinhala
+          - generic [ref=e155]: මම ATM එක ලන්ග ඉන්නේ, ඔයා එන්නෙ නද්ද ?
+          - generic [ref=e156]:
+            - button "Copy" [ref=e157] [cursor=pointer]:
+              - img [ref=e158]
+            - button "Clear" [ref=e160] [cursor=pointer]:
               - img [ref=e161]
-            - button "Clear" [ref=e163] [cursor=pointer]:
-              - img [ref=e164]
-      - button "Clear" [ref=e167] [cursor=pointer]: 🗑️ Clear
+      - button "Clear" [ref=e164] [cursor=pointer]: 🗑️ Clear
 ```

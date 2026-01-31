@@ -21,10 +21,25 @@ const testCases = [
   { input: 'magee WiFi ekee avlak velaa mata iiye group call eka maedhadhi yanna unaa', expected: 'මගේ WiFi එකේ අව්ලක් වෙලා මට ඊයෙ group call එක මැදදි යන්න උනා' },
   { input: 'website ekata giyaama "404 error" kiyala enavaa ', expected: 'website එකට ගියාම "404 error" කියල එනවා ' },
   { input: 'Api eeye cool planet giyaa maalabee. Aluth blouses 2 gaththaa', expected: 'අපි ඒයෙ cool planet ගියා මාලබේ. අලුත් blouses 2 ගත්තා ' },
+  { input: 'oyaata Saturday kiiyatadha enna puluvan', expected: 'ඔයාට Saturday කීයටද එන්න පුලුවන්' },
+  { input: 'heta zoom meeting 2 thiyenavaa. Mata velavak naethi veyi colombo yanna', expected: 'හෙට zoom meeting 2 තියෙනවා. මට වෙලවක් නැති වෙයි colombo යන්න' },
+  { input: 'mata CV ekak hadhaaganna oonee', expected: 'මට CV එකක් හදාගන්න ඕනේ' },
+  { input: 'mama iiye word document eka hadhala ivara karaa', expected: 'මම ඊයෙ word document එක හදල ඉවර කරා' },
+  { input: 'heta lectures 3 thiyenavaa', expected: 'හෙට lectures 3 තියෙනවා' },
+  
 
   { input: 'oyata man okkoma wisthare kiyannam heta', expected: 'ඔයට මන් ඔක්කොම විස්තරේ කියන්නම් හෙට' },
   { input: 'ʃ (5x-2)3x .dx meeka anukalanaya paadamen enne.', expected: 'ʃ (5x-2)3x .dx මේක අනුකලනය පාඩමෙන් එන්නෙ.' },
-  { input: 'bye bye! Heta meet wemu.', expected: 'bye bye! හෙට meet වෙමු.' }
+  { input: 'bye bye! Heta meet wemu.', expected: 'bye bye! හෙට meet වෙමු.' },
+  { input: 'heta ta witharak mata oyage white blouse eka one. Man Gaava white blouses na', expected: 'හෙට ට විතරක් මට ඔයාගෙ white blouse එක ඕනේ. මන් ගාව white blouses නෑ' },
+  { input: 'Thava dhavas 2 i apita mee vaedeeta Thiyenne ', expected: 'තව දවස් 2 යි අපිට මේ වැඩේට තියෙන්නෙ ' },
+  { input: 'Figma, Adobe illustrator dheken kaemathi ekak use karanna puluvan', expected: 'Figma, Adobe illustrator දෙකෙන් කැමති එකක් use කරන්න පුලුවන්' },
+  { input: 'node.js , mongo DB, use karanna kivvaa backend ekata', expected: 'node.js , mongo DB, use කරන්න කිව්වා backend එකට' },
+  { input: 'heta cargills ekata yamudha api dhennaa', expected: 'හෙට cargills එකට යමුද අපි දෙන්නා' },
+  { input: 'ee column ekata "not a member" kiyala dhaanna', expected: 'ඒ column එකට "not a member" කියල දාන්න' },
+  { input: 'mata .png format eken oyaage diagram eka evanna.code eka .html valin save karanna ', expected: 'මට .png format එකෙන් ඔයාගෙ diagram එක එවන්න.code එක .html වලින් save කරන්න ' },
+
+  
 ];
 
 for (const tc of testCases) {
